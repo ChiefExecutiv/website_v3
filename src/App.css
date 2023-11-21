@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+
+.App {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  text-align: start;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  padding-bottom: 10rem;
+}
+
+.App_Dark {
+  display: grid;
+  place-items: center;
+  box-sizing: border-box;
+  text-align: start;
+  width: 100%;
+  color: #fff;
+  background-color: #0c0c0c;
+  padding: 1rem;
+  padding-bottom: 10rem;
+}
+.App_Dark * {
+  background-color: #0c0c0c;
+}
+
+.App_Dark .App-link {
+  color: #fff;
+}
+
+.App_Dark .NavBar{
+  border: 1px solid #1a1a1a;
+}
+.App_Dark .NavBar button {
+  border: none;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+.App_Dark .App-link:hover{
+  border: none;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 5.0px;
+}
+
+
+.Page {
+  margin-top: 100px;
+}
+.link {
+  color: #000;
+  font-weight: 600;
+}
+
+.App_Dark .link {
+  color: #fff;
+  font-weight: 600;
+}
+.App-link {
+  color: #000;
+  text-decoration: none;
+  padding: 5px;
+  transition: all .1s;
+}
+
+.App-link:hover {
+  border: none;
+  background-color: #e5e7eb;
+  border-radius: 5.0px;
+}
+
+label {
+  font-weight: 500;
+}
+
+.Progress p {
+  color:#575757;
+}
