@@ -1,0 +1,90 @@
+:root {
+    --tl_gap : 2.5rem;
+}
+
+
+.Body {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header {
+    border: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: var(--tl_gap);
+    padding-top: 1rem;
+    padding-bottom: 0;
+}
+
+.header label {
+    color: #4e4e4e;
+    font-size: .79rem;
+    font-weight: 480;
+}
+
+.Section {
+    padding-top: 0;
+    border: none;
+    width: 100%;
+}
+
+ul {
+    border: none;
+    padding: 0;
+}
+.Section li {
+    width: 100%;
+    border-top: 1px solid #e5e7e5;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: calc(var(--tl_gap) + 7px);
+    align-items: center;
+    cursor: pointer;
+}
+.App .Section li:hover{
+    background-color: #f2f2f2;
+}
+.Section span {
+    color: #4e4e4e;
+    font-size: .9rem;
+}
+
+.Section p {
+    font-size: .9rem;
+}
+
+/*Dark mode */
+.App_Dark .header label{
+    color: #70747a
+}
+
+.App_Dark .Section span {
+    color: #70747a;
+}
+
+.App_Dark .Section li {
+    border-top: 1px solid #1a1a1a;
+}
+
+.App_Dark .Section li:hover {
+    filter: brightness(130%);
+}
+
+.Item_Link {
+    text-decoration: none;
+}
+
+.App .Item_Link {
+    color: #000;
+}
+
+.App_Dark .Item_Link {
+    color: #fff;
+}

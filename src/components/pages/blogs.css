@@ -1,0 +1,21 @@
+.txtDcr {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    color: #5e5e5e;
+}
+.Image_div {
+    display: grid;
+    place-items: center;
+}
+.Image {
+    height: 70%;
+    width: 75%;
+    border-radius: 2px;
+}
+
+.caption {
+    margin-top: 0;
+    font-style: italic;
+    color: #888; /* Example color */
+    /* Add any other styles you want for your caption */
+  }

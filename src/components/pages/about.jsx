@@ -6,9 +6,9 @@ function About(){
         <div>
             <h3>Benjamin</h3>
             <p>
-                To whoever somehow ends up reading this,<br></br>this is my
+                Welcome.<br></br>This is my
                 own little journal to keep track of my steps <br></br>on a million mile
-                journey <br></br>with a million possible destinations.
+                journey <br></br><span className='txtDcr'>with a million possible destinations.</span>
             </p>
 
             <p>
@@ -17,7 +17,7 @@ function About(){
                 However, I still learn computer science
                 science.<br></br>
                 At the time, I have learnt programming in python, <br></br>javaScript and ofcourse html and css.
-                <br></br>I wish to go beyond where I am now, far, far beyond
+                <br></br>I wish to <span className='txtDcr'>go beyond where I am now</span>, far, far beyond
             </p>
 
             <p>
@@ -30,7 +30,7 @@ function About(){
                 <br></br>I want to create amazing things, 
                 <br></br>I want to be a keystone in the 
                 grand structure of humanity.<br></br>
-                I'm hoping that by learning to code,<br></br> I can build software, that would change lives<br></br>
+                I'm hoping that by learning to code,<br></br> I can build software, that would <span className='txtDcr'>change lives</span><br></br>
                 I want to be anything but your everyday human.
             </p>
 

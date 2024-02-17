@@ -1,7 +1,7 @@
 import './Nav.css';
 import { Link as RouterLink } from 'react-router-dom'
 
-function NavBar( {setMode, style} ) {
+function NavBar( {setMode, style, btnText} ) {
     return (
         <nav className="NavBar" style={style}>
             <RouterLink to='/' className='App-link'>
@@ -10,7 +10,7 @@ function NavBar( {setMode, style} ) {
             <RouterLink to='/progress' className='App-link'>
                 Progress
             </RouterLink>
-            <button onClick={setMode}>Dark</button>
+            <button onClick={setMode}>{btnText}</button>
         </nav>
     )
 }
