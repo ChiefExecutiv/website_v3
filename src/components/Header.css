@@ -1,0 +1,78 @@
+@media (min-width: 768px) {
+    .header_main_1_ {
+        margin-bottom: 2.5rem;
+    }
+}
+
+.header_main_1_ {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    .name_span_1_ {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+}
+
+.name_span_1_ {
+    font-weight: 700;
+    white-space: nowrap;
+    /*text-decoration: inherit;*/
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: hsl(212, 100%, 48%);
+}
+
+.name_span_1_ span {
+    padding-right: 0.5rem;
+}
+
+@media (min-width: 768px) {
+    .nav_main_1_ {
+        gap: 0.75rem;
+    }
+}
+
+.nav_main_1_ {
+    display: flex;
+    gap: 0.25rem;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: ui-monospace, SFMono-Regular, Menlo, 
+                    Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    font-size: .75rem;
+    line-height: 1rem;
+}
+
+.nav_main_1_ button {
+    display: inline-flex;
+    border: none;
+    border-radius: 0.125rem;
+    padding: 0.5rem;
+    background-color: rgb(229, 231, 235);
+    cursor: pointer;
+}
+
+.nav_main_1_  a {
+    color: inherit;
+    /*color: hsl(212, 100%, 48%);*/
+    text-decoration: underline;
+    text-decoration-color: hsl(212, 100%, 48%);
+    padding: 0.5rem;
+    border-radius: 0.125rem;
+}
+
+
+.App_Dark .nav_main_1_ button {
+    display: inline-flex;
+    border: none;
+    border-radius: 0.125rem;
+    padding: 0.5rem;
+    background-color: rgb(49 49 49);
+    color: #fff;
+    cursor: pointer;
+}

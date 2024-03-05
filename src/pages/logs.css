@@ -1,0 +1,128 @@
+.main_level_2_ {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    max-width: 42rem;
+    margin: auto;
+    margin-bottom: 2.5rem;
+}
+
+.header_main_2_ {
+    color: rgb(107 114 128);
+    font-size: .75rem;
+    line-height: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.header_main_2_ button {
+    text-transform: none;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: inherit;
+}
+.button_2_ {
+    text-align: left;
+    width: 3rem;
+    height: 2.25rem;
+    cursor: pointer;
+}
+
+.header_main_2_ span {
+    padding-left: 0.5rem;
+    flex-grow: 1;
+}
+
+.button_2_2_ {
+    padding-left: 1rem;
+    height: 2.25rem;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.span_2_1_ {
+    display: flex;
+    /*
+    border-color: rgb(229 231 235);
+    border-bottom-width: 0;
+    border-top-width: 1px; */
+    border-top: 1px solid rgb(229, 231, 235);
+}
+
+.span_2_2_ {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.date_2_ {
+    display: inline-block;
+    align-self: flex-start;
+    flex-shrink: 0;
+    width: 3.5rem;
+    color: rgb(107 114 128);
+
+}
+
+.title_2_ {
+    flex-grow: 1;
+    /*color: hsl(212, 100%, 48%);*/
+}
+
+.views_2_ {
+    color: rgb(107 114 128 );
+    font-size: .75rem;
+    line-height: 1rem;
+}
+
+li {
+    transition: all .1s ease-in;
+}
+
+li:hover {
+    background-color: rgba(229, 231, 235, 0.5); 
+}
+
+/*Dark mode styles */
+.App_Dark .date_2_ {
+    display: inline-block;
+    align-self: flex-start;
+    flex-shrink: 0;
+    width: 3.5rem;
+    color: #70747a;
+}
+
+.App_Dark .title_2_ {
+    flex-grow: 1;
+    color: #fff;
+}
+
+.App_Dark .span_2_1_ {
+    display: flex;
+    /*
+    border-color: rgb(229 231 235);
+    border-bottom-width: 0;
+    border-top-width: 1px; */
+    border-top: 1px solid  #3a3c3f;
+}
+
+.App_Dark li:hover {
+    background-color: #252526; 
+}

@@ -1,0 +1,72 @@
+article {
+    color: rgb(31 41 55 );
+    margin-bottom: 2.5rem;
+}
+
+article h1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0;
+    margin-bottom: 0.25rem;
+}
+
+article .tag {
+    display: flex;
+    margin: 0;
+    color: rgb(107 114 128 );
+    font-size: .75rem;
+    line-height: 1rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+}
+
+article .text {
+    margin: 1.25rem;
+}
+
+article span {
+    color: rgb(75 85 99);
+    border-bottom: 1px solid rgb(209 213 219);
+}
+
+article h2 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin: 2rem;
+    position: relative;
+}
+
+article .h2_span {
+    position: relative;
+}
+
+article .main_text {
+    margin: 1.25rem;
+}
+
+.img_section {
+    margin: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+   /* border: 1px solid #e5e7eb; */
+    border-radius: 0.1rem;
+    will-change: auto;
+}
+
+.link {
+    color: inherit;
+    text-decoration-color: hsl(212, 100%, 48%);
+}
+
+/*Dark mode styles*/
+.App_Dark article {
+    color: rgb(243 244 246);
+}
+
+.App_Dark article span{
+    color: hsl(240 5% 64.9%);
+}
